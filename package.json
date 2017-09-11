@@ -1,0 +1,27 @@
+{
+  "name": "scrape-by",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remanriq/scrape-by.git"
+  },
+  "author": "Rosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/remanriq/scrape-by/issues"
+  },
+  "homepage": "https://github.com/remanriq/scrape-by#readme",
+  "dependencies": {
+    "body-parser": "^1.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.11",
+    "request": "^2.81.0"
+  }
+}
